@@ -1,0 +1,45 @@
+{
+  "Optics": {
+    "ExWavelength": 532e-9,
+    "EmWavelength": 610e-9,
+
+    "NA": 1.25,
+    "Mag": 67,
+    "TubeLens": 200,
+    "EMag":1,
+    "Resolution": 2048,
+    "PixelSize": 6.5e-6,
+    "ExposureTime": 200e-3,
+    "CaptureTime": 1,
+
+    "isOTFExist":true,
+    "OTFPath":"./otf_512.bmp",
+    "OTFType": "bessel"
+  },
+  "Data":{
+    "folderpath":"./",
+    "ImgSize":2048,
+    "Path": "./Data",
+    "EPixelSize": 0,
+    "FrameNums":1,
+
+    "isSimulate":false,
+    "SimulateType":"RandomDots",
+    "FrequencyFactor":0.7,
+    "Frames":5,
+    "MF":0.8,
+    "isNoising": false,
+
+  	"isExpirement":true,
+	"DataType": "NonPhaseShift",
+	"isCrop": false,
+	"CropStart": [553, 444],
+	"CropSize": 512
+  },
+  "Reconstruction":{
+    "type":"jRL",
+    "isIdealPattern":false,
+    "ResultPath":"./Results",
+    "DataPath":"./"
+  }
+}
